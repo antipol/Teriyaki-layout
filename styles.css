@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background-image: url(images/dark-wood.jpg);
+  background-attachment: fixed;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.all {
+  width: 800px;
+  margin: 10px auto;
+  background-color: white;
+  color: #333;
+  border: 1px solid black;
+}
+
+header img {
+  max-width: 100%;
+  display: block;
+}
+
+nav,
+footer,
+nav a {
+  background-color: #aaa9a5;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.small {
+  font-size: 90%;
+}
+
+/* testing layout solutions */
+
+.content {
+  float: left;
+  width: 63%;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.right {
+  float: right;
+  width: 26%;
+  margin: 20px;
+}
+
+.page {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.veggie,
+.master {
+  float: right;
+  width: 240px;
+  padding: 10px;
+}
+
+.image-text {
+  float: left;
+  border: 1px solid lightgray;
+  padding: 10px 5px 20px 5px;
+  width: 210px;
+}
+
+.image-text img {
+  width: 100%;
+}
+
+.image-text p {
+  margin: 1%;
+}
+
+.recipe {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bok {
+  margin-bottom: 30px;
+}
+
+.red {
+  color: #d85c5c;
+}
+
+h2 {
+  margin: 0;
+}
+
+.contact {
+  margin-top: 15%;
+}
+
+.popular h2 {
+  padding: 11px 0px;
+}
+
+.popular a {
+  display: block;
+  text-decoration: none;
+  line-height: 130%;
+  color: #d85c5c;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.contact h2 {
+  color: #d85c5c;
+}
